@@ -1,0 +1,12 @@
+{
+  "name": "tn-82ms-calc",
+  "version": "0.1.0",
+  "description": "TN-82MS calculator prototype tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "dependencies": {
+    "jsdom": "^22.1.0"
+  }
+}

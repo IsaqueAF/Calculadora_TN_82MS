@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TN-82MS — Calculadora Científica</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="shortcut icon" href="./src/images/calculadora.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div class="main__content">
+            <div class="calculator">
+                <div class="calculate__result__content">
+
+                    <img src="src/images/beleza.png" alt="Emoji fazendo um joia com a mão">
+
+                    <div class="calculate__result__display__ghost">
+                        <div class="variables__ghost">
+                            <h1 class="memory__ghost">
+                                M
+                            </h1>
+                            <h1 class="signal__ghost">
+                                -
+                            </h1>
+                            <h1 class="exponential__ghost">
+                                E
+                            </h1>
+                        </div>
+                        <h1 class="text__calculate__result__ghost">888888888</h1>
+                    </div>
+
+                    <div class="calculate__result__display">
+                        <div class="variables">
+                            <h1 id="memory"></h1>
+                            <h1 id="signal"></h1>
+                            <h1 id="exponential"></h1>
+                        </div>
+                        <h1 id="text__calculate__result"></h1>
+                    </div>
+
+                </div>
+
+                <div class="button__content">
+                    <button class="black button" id="shift">SHIFT</button>
+                    <button class="black button" id="alpha">ALPHA</button>
+                    <div></div>
+                    <button class="black button" id="exp">eˣ</button>
+                    <button class="black button" id="pow">xʸ</button>
+                    <button class="black button" id="log">log</button>
+                    <button class="black button" id="ln">ln</button>
+                    <div></div>
+                    <button class="black button" id="fact">n!</button>
+                    <button class="black button" id="inv">x⁻¹</button>
+                    <button class="black button" id="sin">sin</button>
+                    <button class="black button" id="cos">cos</button>
+                    <button class="black button" id="tan">tan</button>
+                    
+                    <button class="black button" id="nCr">nCr</button>
+                    <button class="black button" id="nPr">nPr</button>
+                    <button class="black button" id="STO">STO</button>
+                    <button class="black button" id="RCL">RCL</button>
+                    <button class="black button" id="ENG">ENG</button>
+                    <button class="black button" id="hyp">hyp</button>
+                    <button class="black button" id="Ans">Ans</button>
+                    
+                    <button class="black button" id="MC">MC</button>
+                    <button class="black button" id="MR">MR</button>
+                    <button class="black button" id="M__plus">M+</button>
+                    <button class="black button" id="M__minus">M-</button>
+                    <button class="black button" id="percentage">%</button>
+
+                    <button class="white button" id="7">7</button>
+                    <button class="white button" id="8">8</button>
+                    <button class="white button" id="9">9</button>
+                    <button class="red button" id="DEL">DEL</button>
+                    <button class="red button" id="AC">AC</button>
+                    <button class="white button" id="4">4</button>
+                    <button class="white button" id="5">5</button>
+                    <button class="white button" id="6">6</button>
+                    <button class="white button" id="multiplication">×</button>
+                    <button class="white button" id="division">÷</button>
+                    <button class="white button" id="1">1</button>
+                    <button class="white button" id="2">2</button>
+                    <button class="white button" id="3">3</button>
+                    <button class="white button" id="plus">+</button>
+                    <button class="white button" id="minus">-</button>
+                    <button class="white button" id="0">0</button>
+                    <button class="white button" id="dot">.</button>
+                    <button class="white button" id="convert__signal">+/-</button>
+                    <button class="white button" id="pi">π</button>
+                    <button class="white button" id="equal">=</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="src/scripts/script.js"></script>
+</body>
+</html>
